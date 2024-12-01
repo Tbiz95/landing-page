@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 192px;
+    padding: 0 224px;
     background-color: #1F2937;
 }
 
@@ -18,6 +18,7 @@ body {
     gap: 16px;
     list-style-type: none;
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .header-logo {
@@ -25,3 +26,51 @@ body {
     font-weight: 900;
     color: #F9FAF8;
 }
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 224px;
+    background-color: #1F2937;
+}
+
+.header-info {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-info p {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.phantom {
+    max-height: 288px;
+    width: auto;
+}
+
+.image {
+    display: flex;
+    justify-content: end;
+    max-height: 288px;
+    width: 480px;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 128px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
