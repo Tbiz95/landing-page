@@ -169,3 +169,12 @@ body {
     font-weight: 900;
     border-style: solid;
 }
+
+.copyright-box {
+    background-color:#1F2937;
+}
+.copyright-box p {
+    text-align: center;
+    color:#F9FAF8;
+    margin: 24px 0;
+}
