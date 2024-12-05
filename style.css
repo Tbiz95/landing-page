@@ -53,15 +53,20 @@ body {
 }
 
 .phantom {
-    max-height: 288px;
-    width: auto;
+    /*max-height: 288px;*/
+    /*width: auto;*/
+    height: 200px;
+    max-width: 200px;
 }
 
 .image {
+    /*display: flex;*/
+    /*justify-content: end;*/
+    /*max-height: 288px;*/
+    /*width: 480px;*/
     display: flex;
     justify-content: end;
-    max-height: 288px;
-    width: 480px;
+    width: 100%;
 }
 
 .header-info button {
@@ -116,7 +121,7 @@ body {
     align-items: center;
     background-color: #E5E7EB;
     padding: 128px 224px;
-    
+
 }
 
 .quote-box p {
@@ -178,3 +183,25 @@ body {
     color:#F9FAF8;
     margin: 24px 0;
 }
+
+
+/*TABLET SIZE*/
+@media screen and (max-width: 1024px) {
+
+  .info-images {
+      flex-direction:column;
+      align-items: center;
+  }
+
+}
+
+/*PHONE SIZE*/
+
+@media screen and (max-width: 560px) {
+
+  .header {
+      padding: 10px;
+  }
+
+}
+
