@@ -146,21 +146,29 @@ body {
 }
 
 .sign-up {
-    padding: 128px 224px;
+    /*padding: 128px 224px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
 .sign-up-box {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 64px 128px;
-    background-color:#3882F6;
+    background-color: #3882F6;
     border-radius: 16px;
+    padding: 60px 120px;
 }
 
 .su-box-left h2, .su-box-left p {
     margin: 0;
     color:#F9FAF8;
+}
+
+.su-box-left {
+    margin-right: 50px;
 }
 
 .su-box-right button {
@@ -198,14 +206,27 @@ body {
       padding: 0 50px;
   }
 
+  .sign-up-box {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .su-box-left {
+      margin-right: 0px;
+  }
+
 }
 
 /*PHONE SIZE*/
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 520px) {
 
   .header {
       padding: 0 20px;
   }
+
+    .header-list {
+        font-size: 12px;
+    }
 
 }
